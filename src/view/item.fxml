@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onMousePressed="#click" prefHeight="403.0" prefWidth="270.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.itemController">
+   <styleClass>
+      <String fx:value="shadow" />
+      <String fx:value="product-item" />
+      <String fx:value="transparent" />
+   </styleClass>
+   <children>
+      <VBox alignment="CENTER" layoutX="85.0" layoutY="38.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fx:id="imageproduct" fitHeight="300.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/products/product-12-img-2.jpg" />
+               </image>
+            </ImageView>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="textCategory" styleClass="text-product" text="Smart Phone">
+                     <VBox.margin>
+                        <Insets left="25.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Segoe UI Symbol" size="16.0" />
+                     </font></Label>
+                  <Label fx:id="textName" prefHeight="30.0" prefWidth="170.0" styleClass="text-product" text="IPHONE 12" textFill="#0c60f5">
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="25.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="25.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox prefHeight="48.0" prefWidth="270.0">
+                     <children>
+                        <Label fx:id="textPrice" alignment="CENTER" prefHeight="39.0" prefWidth="143.0" styleClass="product-price" text="\$1000">
+                           <font>
+                              <Font size="27.0" />
+                           </font></Label>
+                        <Label fx:id="textCurrentPrice" alignment="CENTER" prefHeight="46.0" prefWidth="134.0" styleClass="text" text="\$988" textFill="#ee1e17">
+                           <font>
+                              <Font size="31.0" />
+                           </font></Label>
+                     </children>
+                  </HBox>
+               </children>
+               <styleClass>
+                  <String fx:value="product-footer" />
+                  <String fx:value="chonsen-fruit-card" />
+               </styleClass>
+            </VBox>
+         </children></VBox>
+   </children>
+</AnchorPane>

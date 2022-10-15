@@ -1,0 +1,71 @@
+.search-box{
+    -fx-background-color: #ffffff;
+    -fx-background-radius:100;
+    -fx-border-radius:100;
+    -fx-border-color:#4834d4;
+}
+.transparent{
+    -fx-background-color:rgba(0,0,0,0);
+}
+.search-button{
+    -fx-background-color:#4834d4;
+    -fx-background-radius:30;
+}
+.right-bar{
+    -fx-background-color:#D3D3D3;
+
+}
+.shadow{
+    -fx-effect:dropShadow(three-pass-box, rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+}
+/*.chonsen-fruit-card{
+    -fx-background-color:#F16C31;
+    -fx-background-top-radius: 30;
+}*/
+.add-btn{
+    -fx-background-color:#ffffff;
+    -fx-background-radius: 100;
+}
+.free-delivery-card{
+    -fx-background-color:#D3D3D3;
+    -fx-background-radius:30;
+}
+.shopping-online-card{
+    -fx-background-color:#BAEAC3;
+    -fx-background-radius:30;
+}
+.product-item{
+    -fx-background-color:#ffffff;
+    -fx-background-radius:30;
+}
+.product-item:hover{
+    -fx-border-color: #44bd32;
+    -fx-border-radius:30;
+}
+.product-footer{
+    -fx-background-color:#d2dae2;
+    -fx-background-radius:0 0 30 30;
+    -fx-effect:dropShadow(three-pass-box, rgba(0,0,0,0.1),10.0,0.0,0.0,10.0);
+}
+.product-title{
+    -fx-text-fill:#2c2c54;
+}
+.product-price .text{
+    -fx-strikethrough: true;
+}
+.left-menu{
+    -fx-background-color:#4834d4;
+}
+/*.top-menu{
+    -fx-background-color: linear-gradient(to right,#4834d4,#ffffff);
+}*/
+.product-tutal{
+-fx-background-color:#ffff;
+-fx-background-radius:50%;
+-fx-border-radius:50%;
+-fx-border-color:#000000;
+
+}
+.text-product{
+    -fx-font-weight:700;
+}

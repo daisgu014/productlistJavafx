@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18e518b9-f119-4413-8bcd-f241aa625857" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlideEffect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/filter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/headphones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/keyboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/laptop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/log-out.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/select.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/shopping-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/smart-watch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/smartphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icon/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-1-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-1-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-1-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-1-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-10-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-10-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-10-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-10-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-11-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-11-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-12-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-12-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-12-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-12-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-13-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-13-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-14-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-14-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-14-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-15-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-15-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-15-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-16-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-16-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-16-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-17-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-17-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-18-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-18-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-18-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-19-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-19-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-19-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-2-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-2-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-2-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-20-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-20-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-20-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-21-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-21-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-21-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-22-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-22-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-22-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-22-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-23-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-23-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-23-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-24-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-24-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-24-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-24-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-25-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-25-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-25-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-25-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-25-img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-26-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-26-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-26-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-27-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-27-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-27-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-28-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-28-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-29-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-29-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-29-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-3-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-3-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-3-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-3-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-4-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-4-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-4-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-5-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-5-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-5-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-5-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-6-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-6-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-6-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-7-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-7-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-7-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-7-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-8-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-8-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-8-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-8-img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-9-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-9-img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product-9-img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/products/product.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/categoryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/itemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/sence1Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/sence2Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/viemProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/categoryitem.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/css/styleCategory.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/item.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/sence1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/sence2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/view-product.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2G4PNssr6xVNG146YB8ylYmZCWn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/javaFx/SlideEffect&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\javaFx\SlideEffect\src\view" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="SlideEffect" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;D:\Software\openjfx-19_windows-x64_bin-sdk\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18e518b9-f119-4413-8bcd-f241aa625857" name="Changes" comment="" />
+      <created>1665644847353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665644847353</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

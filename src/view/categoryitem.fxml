@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="50.0" prefWidth="159.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.viemProductController">
+   <children>
+      <HBox alignment="CENTER" layoutX="-59.0" layoutY="-25.0" prefHeight="50.0" prefWidth="128.0" stylesheets="@css/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-8.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="39.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icon/smartphone.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" prefHeight="47.0" prefWidth="100.0" text="Smart Phone" textFill="#d9280d">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+   <styleClass>
+      <String fx:value="product-item" />
+      <String fx:value="shadow" />
+   </styleClass>
+</AnchorPane>
