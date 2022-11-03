@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e518b9-f119-4413-8bcd-f241aa625857" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/fontawesomefx_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_42_bin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon/left-arrowheads.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icon/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ProductDetailsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/TableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/ViewDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/ProductDetails.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/Table.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/css/detailItem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/keybroadDetals.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/laptopDetail.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SlideEffect.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SlideEffect.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/MyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/itemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/itemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/viemProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/viemProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/view-product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/view-product.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ViewDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ViewDetails.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
