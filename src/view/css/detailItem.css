@@ -1,0 +1,14 @@
+.title{
+    -fx-background-color:#161DC9;
+    -fx-text-fill: #ffff;
+     -fx-background-radius: 15;
+}
+.boder_radius{
+   -fx-background-radius: 15;
+}
+.price_title{
+    -fx-text-fill:#F60A0A;
+}
+.color{
+     -fx-text-fill: #ffff;
+}

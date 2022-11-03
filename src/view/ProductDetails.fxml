@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="810.0" prefWidth="1315.0" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProductDetailsController">
+   <children>
+      <HBox fx:id="hboxDetails" alignment="CENTER" layoutY="8.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="810.0" prefWidth="367.0">
+               <children>
+                  <Pane prefHeight="39.0" prefWidth="367.0" />
+                  <Button fx:id="backicon" mnemonicParsing="false" onAction="#backToShop" prefHeight="38.0" prefWidth="49.0" styleClass="transparent">
+                     <VBox.margin>
+                        <Insets left="-280.0" />
+                     </VBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="43.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/icon/left-arrowheads.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Pane prefHeight="97.0" prefWidth="367.0" />
+                  <ImageView fx:id="productImage" fitHeight="388.0" fitWidth="234.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/products/product.jpg" />
+                     </image>
+                     <styleClass>
+                        <String fx:value="shadow" />
+                        <String fx:value="search-box" />
+                     </styleClass>
+                  </ImageView>
+                  <Pane prefHeight="93.0" prefWidth="376.0" />
+                  <Label fx:id="productTitle" alignment="CENTER" prefHeight="63.0" prefWidth="376.0" text="Category" textFill="#160bab">
+                     <font>
+                        <Font name="Segoe UI Semibold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="93.0" prefWidth="376.0" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

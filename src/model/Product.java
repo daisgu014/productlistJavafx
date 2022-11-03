@@ -6,6 +6,8 @@ public class Product {
     private String name;
     private String imgSrc;
     private double price;
+
+    private String category;
     private String description;
     private String cpu;
     private ArrayList<String> ram;
@@ -14,10 +16,11 @@ public class Product {
     public Product() {
     }
 
-    public Product(String name, String imgSrc, double price, String description, String cpu, ArrayList<String> ram, ArrayList<String> colors) {
+    public Product(String name, String imgSrc, double price,String category, String description, String cpu, ArrayList<String> ram, ArrayList<String> colors) {
         this.name = name;
         this.imgSrc = imgSrc;
         this.price = price;
+        this.category = category;
         this.description = description;
         this.cpu = cpu;
         this.ram = ram;
@@ -70,6 +73,14 @@ public class Product {
 
     public void setRam(ArrayList<String> ram) {
         this.ram = ram;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 
     public ArrayList<String> getColors() {

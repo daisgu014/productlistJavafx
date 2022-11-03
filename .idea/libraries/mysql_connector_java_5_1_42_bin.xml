@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-5.1.42-bin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../operations-of-table-master/src/libaries_icons/mysql-connector-java-5.1.42-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../operations-of-table-master/src/libaries_icons/fontawesomefx-8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../operations-of-table-master/src/libaries_icons/fontawesomefx-glyphsbrowser-all-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../operations-of-table-master/src/libaries_icons/jfoenix-8.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

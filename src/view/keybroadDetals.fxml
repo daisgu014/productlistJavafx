@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="laptop" prefHeight="810.0" prefWidth="948.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewDetails">
+   <children>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="47.0" prefWidth="948.0" />
+            <Label text="Bàn Phím Cơ Có Dây Gaming Razer BlackWidow V3">
+               <font>
+                  <Font name="Segoe UI Symbol" size="35.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" startX="-702.1773071289062" startY="0.7928932309150696" />
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Pane prefHeight="92.0" prefWidth="89.0" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="56.0" prefWidth="149.0" text="Switch:">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="title" />
+                        <String fx:value="shadow" />
+                     </styleClass>
+                  </Label>
+                  <Pane prefHeight="92.0" prefWidth="89.0" />
+                  <Label alignment="CENTER">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Pane prefHeight="18.0" prefWidth="948.0" />
+            <Line endX="126.32269287109375" endY="0.7928932309150696" startX="-702.1773071289062" startY="0.7928932309150696" />
+            <Pane prefHeight="15.0" prefWidth="948.0" />
+            <HBox alignment="CENTER_LEFT" prefHeight="80.0" prefWidth="948.0">
+               <children>
+                  <Pane prefHeight="92.0" prefWidth="89.0" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="63.0" prefWidth="152.0" text="Color:">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                     <styleClass>
+                        <String fx:value="title" />
+                        <String fx:value="shadow" />
+                     </styleClass>
+                  </Label>
+                  <Pane prefHeight="92.0" prefWidth="89.0" />
+                  <Label alignment="CENTER">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Line endX="126.32269287109375" endY="0.7928932309150696" startX="-702.1773071289062" startY="0.7928932309150696" />
+            <Pane prefHeight="12.0" prefWidth="948.0" />
+            <VBox prefHeight="85.0" prefWidth="948.0">
+               <children>
+                  <Pane prefHeight="47.0" prefWidth="948.0" />
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Pane prefHeight="67.0" prefWidth="101.0" />
+                        <Label alignment="CENTER" prefHeight="58.0" prefWidth="158.0" text="Price:">
+                           <font>
+                              <Font size="35.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="title" />
+                              <String fx:value="shadow" />
+                           </styleClass>
+                        </Label>
+                        <Pane prefHeight="67.0" prefWidth="92.0" />
+                        <Label prefHeight="17.0" prefWidth="230.0" styleClass="price_title" text="3640000VND">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="24.0" />
+                           </font></Label>
+                        <Pane prefHeight="100.0" prefWidth="48.0" />
+                        <AnchorPane prefHeight="100.0" prefWidth="287.0">
+                           <children>
+                              <HBox alignment="CENTER" layoutX="-72.0" layoutY="-2.0" prefHeight="58.0" prefWidth="184.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="58.0" AnchorPane.topAnchor="-2.0">
+                                 <children>
+                                    <Button fx:id="minusBtn" mnemonicParsing="false" onAction="#Minus" prefHeight="45.0" prefWidth="48.0" styleClass="transparent">
+                                       <graphic>
+                                          <ImageView fitHeight="39.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../assets/icon/minus.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic></Button>
+                                    <TextField fx:id="Quality" alignment="CENTER" prefHeight="59.0" prefWidth="78.0" promptText="1" text="1">
+                                       <font>
+                                          <Font size="27.0" />
+                                       </font>
+                                       <styleClass>
+                                          <String fx:value="transparent" />
+                                          <String fx:value="color" />
+                                       </styleClass></TextField>
+                                    <Button fx:id="plusBtn" mnemonicParsing="false" onAction="#Plus" prefHeight="32.0" prefWidth="45.0" styleClass="transparent">
+                                       <graphic>
+                                          <ImageView fitHeight="34.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true" styleClass="transparent">
+                                             <image>
+                                                <Image url="@../assets/icon/plus.png" />
+                                             </image>
+                                          </ImageView>
+                                       </graphic></Button>
+                                 </children>
+                                 <styleClass>
+                                    <String fx:value="title" />
+                                    <String fx:value="shadow" />
+                                 </styleClass>
+                              </HBox>
+                           </children>
+                        </AnchorPane>
+                        <Pane prefHeight="100.0" prefWidth="105.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <Line endX="126.32269287109375" endY="0.7928932309150696" startX="-702.1773071289062" startY="0.7928932309150696" />
+            <Pane prefHeight="35.0" prefWidth="948.0" />
+            <TextArea prefHeight="178.0" prefWidth="871.0" text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc." wrapText="true">
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" />
+               </VBox.margin>
+               <styleClass>
+                  <String fx:value="shadow" />
+                  <String fx:value="boder_radius" />
+                  <String fx:value="transparent" />
+               </styleClass>
+               <font>
+                  <Font name="Segoe UI Semibold" size="15.0" />
+               </font>
+            </TextArea>
+            <Pane prefHeight="35.0" prefWidth="948.0" />
+            <Button mnemonicParsing="false" prefHeight="66.0" prefWidth="357.0" text="Thêm vào giỏ hàng">
+               <font>
+                  <Font name="System Bold" size="31.0" />
+               </font>
+               <styleClass>
+                  <String fx:value="shadow" />
+                  <String fx:value="title" />
+               </styleClass>
+            </Button>
+            <Pane prefHeight="35.0" prefWidth="948.0" />
+         </children>
+      </VBox>
+   </children>
+   <stylesheets>
+      <URL value="@css/detailItem.css" />
+      <URL value="@css/style.css" />
+   </stylesheets>
+</AnchorPane>
