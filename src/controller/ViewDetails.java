@@ -43,7 +43,7 @@ public class ViewDetails {
 
     }
     public void renderKeyboardDetails(Product newProduct){
-
+        List<String> ramList = new ArrayList<String>();
     }
     public void renderHeadphoneDetails(Product newProduct){
 
