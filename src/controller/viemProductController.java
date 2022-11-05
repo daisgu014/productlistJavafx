@@ -1,9 +1,4 @@
 package controller;
-
-import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon;
-import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -20,7 +15,6 @@ import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import model.Category;
 import model.Product;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -92,7 +86,7 @@ public class viemProductController implements Initializable {
         product = new Product();
         product.setName("ban phim ne");
         product.setPrice(1000);
-        product.setCategory("keybroad");
+        product.setCategory("keyboard");
         product.setCpu("Chip A11");
         product.setDescription("Iphone 12 ngon lam!");
         product.setColors(colors);
@@ -190,11 +184,18 @@ public class viemProductController implements Initializable {
      }
 
     }
-
+    public  void  switchCartPage(MouseEvent e) throws IOException {
+        Stage stage = (Stage) ((Node)e.getSource()).getScene().getWindow();
+        stage.centerOnScreen();
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(getClass().getResource("/view/cartPage.fxml"));
+        Parent AccountViewParent = loader.load();
+        Scene scene = new Scene(AccountViewParent);
+        stage.setScene(scene);
+    }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-
        renderCategories();
        renderProducts();
     }

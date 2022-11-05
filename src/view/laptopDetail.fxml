@@ -16,12 +16,12 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="laptop" prefHeight="810.0" prefWidth="948.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewDetails">
+<AnchorPane fx:id="laptop" prefHeight="810.0" prefWidth="948.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.laptopDetails">
    <children>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <Pane prefHeight="47.0" prefWidth="948.0" />
-            <Label text="IPHONE 14 PRO">
+            <Label fx:id="productTilte" text="IPHONE 14 PRO">
                <font>
                   <Font name="Segoe UI Symbol" size="35.0" />
                </font>
@@ -40,16 +40,10 @@
                      </styleClass>
                   </Label>
                   <Pane prefHeight="92.0" prefWidth="89.0" />
-                  <Label alignment="CENTER">
-                     <font>
-                        <Font size="37.0" />
-                     </font>
-                  </Label>
-                  <Label alignment="CENTER">
-                     <font>
-                        <Font size="37.0" />
-                     </font>
-                  </Label>
+                  <AnchorPane prefHeight="95.0" prefWidth="601.0">
+                     <children>
+                        <HBox fx:id="renderHB" alignment="CENTER_LEFT" layoutY="-2.0" prefHeight="100.0" prefWidth="601.0" />
+                     </children></AnchorPane>
                </children>
             </HBox>
             <Line endX="126.32269287109375" endY="0.7928932309150696" startX="-702.1773071289062" startY="0.7928932309150696" />
@@ -69,17 +63,12 @@
                         <String fx:value="shadow" />
                      </styleClass>
                   </Label>
-                  <Pane prefHeight="92.0" prefWidth="89.0" />
-                  <Label alignment="CENTER">
-                     <font>
-                        <Font size="37.0" />
-                     </font>
-                  </Label>
-                  <Label alignment="CENTER">
-                     <font>
-                        <Font size="37.0" />
-                     </font>
-                  </Label>
+                  <Pane prefHeight="98.0" prefWidth="75.0" />
+                  <AnchorPane prefHeight="95.0" prefWidth="601.0">
+                     <children>
+                        <HBox fx:id="storageHB" alignment="CENTER_LEFT" layoutY="-2.0" prefHeight="100.0" prefWidth="601.0" />
+                     </children>
+                  </AnchorPane>
                </children>
             </HBox>
             <Line endX="126.32269287109375" endY="0.7928932309150696" startX="-702.1773071289062" startY="0.7928932309150696" />
@@ -100,16 +89,11 @@
                      </styleClass>
                   </Label>
                   <Pane prefHeight="92.0" prefWidth="89.0" />
-                  <Label alignment="CENTER">
-                     <font>
-                        <Font size="37.0" />
-                     </font>
-                  </Label>
-                  <Label alignment="CENTER">
-                     <font>
-                        <Font size="37.0" />
-                     </font>
-                  </Label>
+                  <AnchorPane prefHeight="95.0" prefWidth="601.0">
+                     <children>
+                        <HBox fx:id="colorHbox" alignment="CENTER_LEFT" layoutY="-2.0" prefHeight="100.0" prefWidth="601.0" />
+                     </children>
+                  </AnchorPane>
                </children>
             </HBox>
             <Line endX="126.32269287109375" endY="0.7928932309150696" startX="-702.1773071289062" startY="0.7928932309150696" />
@@ -130,7 +114,7 @@
                            </styleClass>
                         </Label>
                         <Pane prefHeight="67.0" prefWidth="92.0" />
-                        <Label prefHeight="17.0" prefWidth="230.0" styleClass="price_title" text="40.000.000VND">
+                        <Label fx:id="ProductPrice" prefHeight="17.0" prefWidth="230.0" styleClass="price_title" text="40.000.000VND">
                            <font>
                               <Font name="Segoe UI Semibold" size="24.0" />
                            </font></Label>
@@ -178,7 +162,7 @@
             </VBox>
             <Line endX="126.32269287109375" endY="0.7928932309150696" startX="-702.1773071289062" startY="0.7928932309150696" />
             <Pane prefHeight="35.0" prefWidth="948.0" />
-            <TextArea prefHeight="178.0" prefWidth="871.0" text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc." wrapText="true">
+            <TextArea fx:id="drscText" disable="true" prefHeight="178.0" prefWidth="871.0" text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc." wrapText="true">
                <VBox.margin>
                   <Insets left="50.0" right="50.0" />
                </VBox.margin>
