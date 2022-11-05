@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18e518b9-f119-4413-8bcd-f241aa625857" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/cartPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/keyboardDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/laptopDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/view/Component/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/cartPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/keyboardDetail.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/ViewDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ViewDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ProductDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ProductDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ViewDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/sence1Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/sence2Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/viemProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/viemProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/Table.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/css/detailItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/css/detailItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/keybroadDetals.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/laptopDetail.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/laptopDetail.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/view-product.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/view-product.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "D:/Code/operations-of-table-master/src/libaries_icons/jfoenix-8.0.1.jar",
+    "last_opened_file_path": "D:/Code/ProductList",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -57,6 +72,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\javaFx\SlideEffect\src\view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Code\javaFx\SlideEffect\src\view" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">

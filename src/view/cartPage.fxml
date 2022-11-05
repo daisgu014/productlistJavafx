@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="810.0" prefWidth="1315.0" stylesheets="@css/detailItem.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.cartPageController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox prefHeight="810.0" prefWidth="42.0" styleClass="Orderpage_header">
+               <children>
+                  <Pane prefHeight="34.0" prefWidth="45.0" />
+                  <Button mnemonicParsing="false" onAction="#backToShop" styleClass="transparent" stylesheets="@css/style.css">
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/icon/left-arrowheads.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox prefHeight="810.0" prefWidth="1294.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="39.0" prefWidth="1270.0" styleClass="Orderpage_header" text="Giỏ hàng">
+                     <font>
+                        <Font name="Segoe UI Semibold" size="24.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="768.0" prefWidth="1270.0">
+                     <children>
+                        <VBox prefHeight="768.0" prefWidth="879.0">
+                           <children>
+                              <TableView prefHeight="608.0" prefWidth="867.0">
+                                <columns>
+                                  <TableColumn prefWidth="75.0" text="STT" />
+                                  <TableColumn prefWidth="223.0" text="Tên sản phẩm" />
+                                    <TableColumn prefWidth="253.0" text="Thông số kỹ thuật" />
+                                    <TableColumn prefWidth="57.0" text="Số lượng" />
+                                    <TableColumn prefWidth="135.0" text="Thành tiền" />
+                                    <TableColumn prefWidth="92.0" text="Edit" />
+                                </columns>
+                                 <VBox.margin>
+                                    <Insets left="20.0" top="50.0" />
+                                 </VBox.margin>
+                              </TableView>
+                              <Pane prefHeight="42.0" prefWidth="867.0" />
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                 <children>
+                                    <Pane prefHeight="100.0" prefWidth="76.0" />
+                                    <Label prefHeight="40.0" prefWidth="102.0" text="Tổng tiền:">
+                                       <font>
+                                          <Font name="Segoe UI Semibold" size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="100.0" prefWidth="49.0" />
+                                    <Label prefHeight="55.0" prefWidth="283.0" text="40.000.000VND" textFill="#f80101">
+                                       <font>
+                                          <Font name="Segoe UI Semibold" size="20.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="100.0" prefWidth="69.0" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <Pane prefHeight="768.0" prefWidth="50.0" />
+                        <AnchorPane prefHeight="768.0" prefWidth="360.0">
+                           <children>
+                              <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <Pane prefHeight="64.0" prefWidth="358.0" />
+                                    <AnchorPane prefHeight="464.0" prefWidth="365.0">
+                                       <children>
+                                          <VBox layoutX="-2.0" prefHeight="457.0" prefWidth="365.0" styleClass="Orderpage_infomation">
+                                             <children>
+                                                <Label alignment="CENTER" prefHeight="42.0" prefWidth="365.0" styleClass="Orderpage_header_infomation" text="THÔNG TIN KHÁCH HÀNG">
+                                                   <font>
+                                                      <Font name="Segoe UI Semibold" size="20.0" />
+                                                   </font>
+                                                </Label>
+                                                <Label prefHeight="37.0" prefWidth="365.0" text="Họ và tên:" textFill="#630dda">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font name="Segoe UI Semibold" size="15.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextField prefHeight="34.0" prefWidth="333.0" styleClass="Orderpage_infomation_input">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                </TextField>
+                                                <Label prefHeight="37.0" prefWidth="365.0" text="Số điện thoại:" textFill="#630dda">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font name="Segoe UI Semibold" size="15.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextField prefHeight="34.0" prefWidth="333.0" styleClass="Orderpage_infomation_input">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                </TextField>
+                                                <Label prefHeight="37.0" prefWidth="365.0" text="Mail:" textFill="#630dda">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font name="Segoe UI Semibold" size="15.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextField prefHeight="34.0" prefWidth="333.0" styleClass="Orderpage_infomation_input">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                </TextField>
+                                                <Label prefHeight="37.0" prefWidth="365.0" text="Địa chỉ:" textFill="#630dda">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" />
+                                                   </VBox.margin>
+                                                   <font>
+                                                      <Font name="Segoe UI Semibold" size="15.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextArea prefHeight="133.0" prefWidth="325.0" styleClass="Orderpage_infomation_input">
+                                                   <VBox.margin>
+                                                      <Insets left="20.0" right="20.0" />
+                                                   </VBox.margin>
+                                                </TextArea>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets right="20.0" />
+                                       </VBox.margin>
+                                    </AnchorPane>
+                                    <VBox alignment="CENTER" prefHeight="244.0" prefWidth="365.0">
+                                       <children>
+                                          <Pane prefHeight="28.0" prefWidth="365.0" />
+                                          <HBox alignment="CENTER" prefHeight="64.0" prefWidth="373.0">
+                                             <children>
+                                                <TextField prefHeight="42.0" prefWidth="297.0" promptText="Nhập mã giảm giá " styleClass="transparent">
+                                                   <padding>
+                                                      <Insets left="20.0" />
+                                                   </padding>
+                                                   <font>
+                                                      <Font name="Segoe UI Semibold" size="20.0" />
+                                                   </font>
+                                                </TextField>
+                                                <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="114.0" text="Apply">
+                                                   <font>
+                                                      <Font name="Segoe UI Semibold" size="20.0" />
+                                                   </font>
+                                                   <HBox.margin>
+                                                      <Insets right="15.0" />
+                                                   </HBox.margin>
+                                                   <styleClass>
+                                                      <String fx:value="search-button" />
+                                                      <String fx:value="shadow" />
+                                                   </styleClass>
+                                                </Button>
+                                             </children>
+                                             <VBox.margin>
+                                                <Insets right="10.0" />
+                                             </VBox.margin>
+                                             <styleClass>
+                                                <String fx:value="search-box" />
+                                                <String fx:value="shadow" />
+                                             </styleClass>
+                                          </HBox>
+                                          <Pane prefHeight="28.0" prefWidth="365.0" />
+                                          <Label text="Áp mã giảm giá thành công">
+                                             <font>
+                                                <Font name="Segoe UI Semibold" size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <HBox prefHeight="66.0" prefWidth="365.0">
+                                             <children>
+                                                <Pane prefHeight="66.0" prefWidth="56.0" />
+                                                <Label prefHeight="66.0" prefWidth="113.0" text="Thành tiền:">
+                                                   <font>
+                                                      <Font name="Segoe UI Semibold" size="19.0" />
+                                                   </font>
+                                                </Label>
+                                                <Pane prefHeight="66.0" prefWidth="56.0" />
+                                                <Label prefHeight="66.0" prefWidth="188.0" text="40.000.000VND" textFill="#f80808">
+                                                   <font>
+                                                      <Font name="Segoe UI Semibold" size="20.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                          <Button mnemonicParsing="false" prefHeight="44.0" prefWidth="182.0" styleClass="Orderpage_infomation_btn" text="THANH TOÁN">
+                                             <font>
+                                                <Font name="Segoe UI Semibold" size="20.0" />
+                                             </font>
+                                          </Button>
+                                          <Pane prefHeight="24.0" prefWidth="383.0" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

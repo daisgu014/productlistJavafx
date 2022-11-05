@@ -89,7 +89,7 @@
                            </HBox.margin>
                         </HBox>
                         <Pane prefHeight="62.0" prefWidth="324.0" HBox.hgrow="ALWAYS" />
-                        <ImageView fitHeight="37.0" fitWidth="142.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="37.0" fitWidth="142.0" onMousePressed="#switchCartPage" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../assets/icon/shopping-cart.png" />
                            </image>
